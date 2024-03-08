@@ -1,7 +1,5 @@
 package com.example.myapplication
 
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
@@ -26,6 +24,5 @@ class MainActivity : AppCompatActivity() {
            .create()
         dialog.window?.setBackgroundDrawable(alert_dialog)
         dialog.show()
-
     }
 }
